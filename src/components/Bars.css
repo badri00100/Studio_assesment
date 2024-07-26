@@ -1,0 +1,67 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  z-index: 10000000;
+}
+.right-shift {
+  right: 10px;
+}
+.left-shift {
+  left: 20px;
+}
+
+.sidebar-button {
+  background-color: #ffffff;
+  letter-spacing: 0.18px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  font: normal normal bold 18px/52px DIN Condensed;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  letter-spacing: 0.18px;
+  color: #333333;
+  border: none;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  width: 20px;
+  height: 2px;
+  background-color: gray;
+  position: relative;
+  transition: height 0.3s;
+}
+
+.line.active {
+  width: 40px;
+  background-color: black;
+}
+
+.line span {
+  position: absolute;
+  top: -10px;
+  left: 2px;
+  font-size: 20px;
+  display: none;
+}
+
+.line.active span {
+  display: block;
+}

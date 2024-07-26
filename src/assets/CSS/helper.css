@@ -1,0 +1,110 @@
+.flex {
+  display: flex;
+}
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center-start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.flex-center-end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.mt-300 {
+  margin-top: 300px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.ml-2 {
+  margin-left: 20px;
+}
+.ml-3 {
+  margin-left: 30px;
+}
+.mr-1 {
+  margin-right: 10px;
+}
+.mr-2 {
+  margin-right: 20px;
+}
+.mr-3 {
+  margin-right: 30px;
+}
+.w-20p {
+  width: 20%;
+}
+.w-50p {
+  width: 50%;
+}
+.w-60p {
+  width: 60%;
+}
+.w-30p {
+  width: 30%;
+}
+.w-40p {
+  width: 40%;
+}
+.text-center {
+  text-align: center;
+}
+.hidden {
+  visibility: hidden;
+}
+.d-none {
+  display: none;
+}
+.know-more-button {
+  padding: 0px 10px;
+  border: none;
+  background-color: #ffdac9;
+  font: normal normal bold 18px/32px DIN Condensed;
+  cursor: pointer;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}

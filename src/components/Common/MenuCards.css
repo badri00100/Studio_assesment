@@ -1,0 +1,83 @@
+.course-card {
+  min-width: 25%;
+  border-right: 2px solid #cecece;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.course-card:nth-child(1) {
+  padding-top: 220px;
+}
+.course-card:nth-child(2) {
+  padding-top: 320px;
+}
+.course-card:nth-child(3) {
+  padding-top: 280px;
+}
+.course-card:nth-child(4) {
+  padding-top: 240px;
+  border: none;
+}
+.cardDtaHeading {
+  font: normal normal bold 62px/52px DIN Condensed;
+  color: #333333;
+  margin-left: -10px;
+  width: 100px;
+}
+.course-card:nth-child(1) .cardDtaHeading {
+  margin-left: 10px;
+}
+.menu-items {
+  padding: 30px;
+}
+.menu-item {
+  margin-top: 30px;
+}
+
+.menu-item h3 {
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #333333;
+}
+
+.menu-item p {
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+}
+
+.menu-item .price {
+  border: 2px solid #ffdac9;
+  padding: 5px 10px;
+  margin-top: 10px;
+  width: fit-content;
+}
+.animate-card {
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.animate-card.menu-animate {
+  animation: popUp 0.8s ease-out forwards;
+}
+.animate-card.menu-animate-down {
+  animation: popDown 0.8s ease-out forwards;
+}
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: translateY(1000px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes popDown {
+  from {
+    opacity: 0;
+    transform: translateY(-1000px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

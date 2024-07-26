@@ -1,0 +1,27 @@
+.common-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.common-label {
+    /* margin-bottom: 10px;  */
+    color: #333;
+    font: normal normal bold 14px/42px DIN Condensed;
+
+}
+
+.common-input {
+    padding: 10px 0px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc; 
+    background-color: transparent; 
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.common-input:focus {
+    border-color: #333; 
+}

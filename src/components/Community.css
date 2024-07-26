@@ -1,0 +1,59 @@
+.community-container {
+  min-height: 100vh;
+  display: flex;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.community-left-content {
+  width: 50%;
+  padding-right: 10px;
+  /* background-color: rgb(252, 255, 192); */
+}
+.community-right-content {
+  width: 50%;
+  margin-top: 50px;
+  padding-left: 10px;
+  /* background-color: blue; */
+}
+.community-header {
+  display: flex;
+  justify-content: end;
+}
+.community-header-main {
+  width: 250px;
+}
+.community-header h4 {
+  font: normal normal bold 62px/52px DIN Condensed;
+  color: #333333;
+}
+
+.community-header span {
+  display: block; /* Display as inline-block to wrap text and size to content */
+  position: relative;
+  width: fit-content; /* Establish positioning context for the line */
+}
+
+.community-header span::after {
+  content: "";
+  display: block;
+  width: 115%;
+  height: 6px;
+  background-color: #ffdac9;
+  position: absolute;
+  bottom: 21px;
+  left: -18px;
+  z-index: -1;
+}
+.community-para {
+  font: normal normal bold 22px/25px DIN Condensed;
+  color: #333333;
+}
+.community-lorem-text {
+  width: 220px;
+  text-align: start;
+  margin-top: 100px;
+  color: #333333;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+}

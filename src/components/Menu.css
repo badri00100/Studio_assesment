@@ -1,0 +1,38 @@
+.Menu {
+  /* padding: 0px 100px; */
+  min-height: 100vh;
+  background-color: #F8F8F8;
+  position: relative;
+}
+.menu-div {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.menu-heading {
+  width: fit-content;
+  height: 60px;
+  font: normal normal bold 62px/52px DIN Condensed;
+  color: #333333;
+  margin-top: 100px;
+}
+.menu-heading::after {
+  content: "";
+  display: block;
+  width: 115%;
+  height: 6px;
+  background-color: #ffdac9;
+  position: absolute;
+  bottom: 33px;
+  left: -15px;
+  z-index: -1;
+}
+.all-courses {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+}

@@ -1,0 +1,39 @@
+.single-select-container {
+    position: relative;
+    width: 100%;
+}
+
+.select-label {
+    color: #333;
+    font: normal normal bold 14px/42px DIN Condensed;
+}
+
+.single-select {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc; 
+    background-color: transparent; 
+    color: #333;
+    outline: none;
+    cursor: pointer;
+}
+
+.single-select:focus {
+    border: color #333;; 
+}
+
+.single-select option {
+    color: #333;
+}
+
+
+.single-select::placeholder {
+    color: #ccc; 
+    font-weight: bold; 
+}
+
+.single-select::-ms-expand {
+    display: none;
+}

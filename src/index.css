@@ -1,0 +1,21 @@
+@import url(../src/assets/CSS/helper.css);
+
+@font-face {
+  font-family: "DIN Condensed";
+  src: url("./assets/Fonts/DINCondensedBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("./assets/Fonts/GillSans.ttf") format("truetype");
+}
+
+body {
+  font-family: "DIN Condensed", sans-serif;
+}
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

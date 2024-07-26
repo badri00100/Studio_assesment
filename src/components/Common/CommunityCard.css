@@ -1,0 +1,56 @@
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: translateY(200px); /* Start from below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End at the normal position */
+  }
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* border: 1px solid red; */
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.textcard {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.imgBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.text-heading {
+  font: normal normal bold 22px/20px DIN Condensed;
+}
+.text-para {
+  font: normal normal normal 15px/20px Gill Sans;
+  color: #333333;
+}
+.popularity-count {
+  margin: 0px 10px;
+}
+.card.animate {
+  animation: popUp 0.5s ease-out forwards;
+}
+.textcard.animate {
+  animation: popUp 0.5s ease-out forwards;
+}
