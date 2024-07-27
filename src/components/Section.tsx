@@ -7,9 +7,9 @@ const Section = () => {
     <main className="app-main flex-center-center sectionLeft" id="COMMUNITY">
       <div className="section-content">
         <img src={stamp} alt="" className="stamp" />
-        <p className="section-text">
+        <h2 className="section-text">
           <div className="startingText">THE BEST FOODIE</div> EXPERIENCE
-        </p>
+        </h2>
         <p className="section-content-para">NOW IN LONDON</p>
       </div>
     </main>
