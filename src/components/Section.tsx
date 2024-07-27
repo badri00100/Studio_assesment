@@ -6,7 +6,7 @@ const Section = () => {
   return (
     <main className="app-main flex-center-center sectionLeft" id="COMMUNITY">
       <div className="section-content">
-        <img src={stamp} alt="" className="stamp" />
+        <img src={stamp} alt="Stamp icon representing community" className="stamp" />
         <h2 className="section-text">
           <div className="startingText">THE BEST FOODIE</div> EXPERIENCE
         </h2>
